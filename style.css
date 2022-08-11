@@ -67,3 +67,44 @@ header div a {
     text-decoration: none;
     color: white;
 }
+
+/* Show Project  */
+
+.project-show {
+    display: grid;
+    margin: 8rem 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.project-show div div {
+    width: 100%;
+    background-color: orange;
+}
+
+.row-1 {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30rem 18rem 30rem;
+    gap: 2rem;
+}
+
+.row-2 {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 18rem 30rem 18rem 14rem;
+    gap: 2rem;
+}
+
+.row-3 {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 25rem 14rem 18rem 12rem 14rem;
+    gap: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+}
