@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    margin: 0 3rem;
+    margin: 0 7rem;
 }
 
 
@@ -26,11 +26,11 @@ nav {
     padding: 1rem 0;
 }
 
-nav h2 {
+nav>h2 {
     font-size: 2rem;
 }
 
-nav ul {
+nav>ul {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -47,23 +47,23 @@ header {
     margin: 3rem 0;
 }
 
-header h2 {
+header>h2 {
     font-size: 2.5rem;
     margin: 1rem 0;
 }
 
-header p {
+header>p {
     margin: 1rem 0;
 }
 
-header div {
+header>div {
     margin: 1rem 0;
     padding: 1rem 3rem;
     background-color: black;
     width: fit-content;
 }
 
-header div a {
+header>div>a {
     text-decoration: none;
     color: white;
 }
@@ -72,14 +72,18 @@ header div a {
 
 .project-show {
     display: grid;
-    margin: 8rem 4rem;
+    margin: 8rem 0;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
-.project-show div div {
+.project-show>div>div {
     width: 100%;
-    background-color: orange;
+}
+
+.project-show>div>div>img {
+    width: 100%;
+    height: 100%;
 }
 
 .row-1 {
@@ -102,6 +106,41 @@ header div a {
     grid-template-rows: 25rem 14rem 18rem 12rem 14rem;
     gap: 2rem;
 }
+
+/* Service section  */
+
+.services-section {
+    margin: 7rem 0;
+}
+
+.services-section>h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.services-section>p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.services-section>div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.services-section>div>div>h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.services-section>div>div>p {
+    line-height: 1.5rem;
+    color: gray;
+}
+
+/* Footer section  */
 
 footer {
     background-color: black;
