@@ -140,6 +140,78 @@ header>div>a {
     color: gray;
 }
 
+/* About Section  */
+
+.about-section {
+    margin: 7rem 0;
+}
+
+.about-section>h2 {
+    font-size: 2rem;
+}
+
+.about-p {
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.about-top {
+    width: 50%;
+}
+
+.about-top>h2 {
+    font-size: 2rem;
+}
+
+.about-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about-bottom>div {
+    width: 100%;
+}
+
+.about-img {
+    height: 36rem;
+    position: relative;
+}
+
+.about-img>img {
+    width: 90%;
+    height: 100%;
+}
+
+.cv {
+    background-color: purple;
+    color: white;
+    padding: 1.5rem;
+    width: 50%;
+    position: absolute;
+    right: 2rem;
+    top: 17rem;
+}
+
+.bio {
+    font-size: 1.2rem;
+}
+
+.ex-head {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.industry-p {
+    margin: 0.5rem 0rem;
+}
+
 /* Footer section  */
 
 footer {
